@@ -8,11 +8,11 @@ import type { GiftCardAction, GiftCardInStateInter } from '@reducers/index'
 import { Navigation, Virtual } from 'swiper/modules'
 
 import { Icons } from '..'
-import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
+import { StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
 
 import './Carousel.css'
 import 'swiper/css'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper } from 'swiper/react';
 interface CarouselProps {
 	dispatch: Dispatch<GiftCardAction> | Dispatch<FavouriteAction> | null
 	state: GiftCardInStateInter | FavouriteInitialStateInter | null
