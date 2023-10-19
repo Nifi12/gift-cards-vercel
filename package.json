@@ -1,12 +1,9 @@
 {
-	"homepage": "https://Nifi12.github.io/gift-cards-vercel",
 	"name": "giftcard-project",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d disk",
 		"dev": "vite",
 		"devServer": "json-server --watch db.json",
 		"build": "tsc && vite build",
