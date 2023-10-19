@@ -12,7 +12,6 @@ import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './C
 
 import './Carousel.css'
 import 'swiper/css'
-import { Swiper, SwiperSlide } from 'swiper/react';
 interface CarouselProps {
 	dispatch: Dispatch<GiftCardAction> | Dispatch<FavouriteAction> | null
 	state: GiftCardInStateInter | FavouriteInitialStateInter | null
@@ -83,7 +82,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 
 	return (
 		<SwiperWrapper>
-			<Swiper
+			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
 				direction='horizontal'
@@ -107,7 +106,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 				<SwiperArrow className="swiper-next">
 					<FiArrowRightCircle style={{ width: '2rem', height: '2rem' }} />
 				</SwiperArrow>
-			</Swiper>
+			</StyledSwiper>
 		</SwiperWrapper>
 	)
 }
