@@ -36,3 +36,17 @@ h1 {
 .JUST_BOUGHT {
 	background-color: red;
 }
+
+.swipe {
+	width: 1370px;
+	position: static;
+	margin-top: 0.5rem;
+
+	.swiper-wrapper {
+		position: static;
+	}
+
+	@media screen and (width >= 1px) and (width <= 575px) {
+		width: 90vw;
+	}
+}
