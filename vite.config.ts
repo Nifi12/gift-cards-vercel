@@ -5,6 +5,7 @@ import replace from '@rollup/plugin-replace'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
+	base: "/gift-cards-vercel/",
 	plugins: [
 		react(),
 		tsconfigPaths(),
