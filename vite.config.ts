@@ -17,7 +17,7 @@ export default defineConfig({
 		},
 	],
 	build: {
-		cssMinify: false
+		cssMinify: false,
 	},
 	test: {
 		globals: true,
