@@ -1,5 +1,4 @@
 {
-	"name": "giftcard-project",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -66,6 +65,7 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-react-refresh": "^0.4.3",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"gh-pages": "^6.0.0",
 		"husky": "^8.0.3",
 		"msw": "^1.2.3",
 		"postcss-styled-syntax": "^0.4.0",
