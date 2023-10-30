@@ -18,7 +18,7 @@ import type {
 	UserInter,
 } from '../@types/giftcards'
 
-export const API: string = 'http://localhost:3000/'
+export const API: string = 'https://json-db-gift-cards-mock-versel.vercel.app'
 export const CLIENT_ID: string = import.meta.env.VITE_REACT_GOOGLE_CLIENT_ID as string
 
 export const LogoPic = Logo
