@@ -18,7 +18,7 @@ import type {
 	UserInter,
 } from '../@types/giftcards'
 
-export const API: string = import.meta.env.VITE_REACT_APP_API_KEY as string
+export const API: string = 'http://localhost:3000/'
 export const CLIENT_ID: string = import.meta.env.VITE_REACT_GOOGLE_CLIENT_ID as string
 
 export const LogoPic = Logo
